@@ -248,12 +248,12 @@
                 <div class="image-gradient-header"></div>
                 <!-- ngIf: cardDetails.Footer !== null -->
                 <!-- ngIf: cardDetails.Footer == null && cardDetails.NoInigoPromotion == 'False' --><div ng-if="cardDetails.Footer == null &amp;&amp; cardDetails.NoInigoPromotion == &#39;False&#39;" class="layout-column layout-align-center-center ng-scope">
-                    
+                    <p class="footer-text">Create your own Cards today! Download for Free</p>
                     <div layout="row" class="layout-row">
-                        
-                        
+                        <img src="./index_files/Get_Inigo_on_Apple_Store.png" class="footer-img" title="Available on AppStore" ng-click="sendToStore(&#39;Apple&#39;)" role="button" tabindex="0">
+                        <img src="./index_files/Get_Inigo_on_Google_Play.png" class="footer-img" title="Download on Google Play" ng-click="sendToStore(&#39;Google&#39;)" role="button" tabindex="0">
                     </div>
-                    
+                    <p class="footer-constant-text">Inigo LLC © 2017 | All Rights Reserved</p>
                 </div><!-- end ngIf: cardDetails.Footer == null && cardDetails.NoInigoPromotion == 'False' -->
                 <!-- ngIf: cardDetails.Footer == null && cardDetails.NoInigoPromotion == 'True' -->
             </div>
